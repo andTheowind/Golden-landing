@@ -1,0 +1,466 @@
+html, body, main {
+  height: 100%;
+}
+header {
+  background: url('../img/Background Image.png') center center no-repeat;
+  min-height: 100%;
+  background-size: cover;
+}
+.navbar-nav,
+.mr-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  line-height: 2.93;
+}
+header nav {
+  margin: 0 10% 0 12%;
+}
+header .navbar-brand {
+  margin-right: 300px;
+}
+nav ul a {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  letter-spacing: normal;
+  font-weight: normal;
+  text-align: center;
+}
+nav ul li {
+  margin-right: 2rem;
+}
+.navbar-toggler {
+  border: none;
+  padding: 0 12px;
+}
+nav button:active, nav button:focus {
+  outline: none; 
+}
+h1 {
+  font-family: 'Montserrat';
+  font-size: 75px;
+  font-weight: bold;
+  letter-spacing: -1.88px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+header h2 {
+  font-family: 'Droid Serif';
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+.container-fluid button {
+	background-color: #fed136;
+	width: 240px;
+  height: 65px;
+  border-radius: 3px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.title {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 12%;
+}
+article {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+article h2 {
+	text-transform: uppercase;
+}
+.titles h2 {
+  font-family: 'Montserrat';
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #222222;
+}
+.titles span {
+  font-family: 'Droid Serif';
+  font-size: 16px;
+  font-style: italic;
+  color: #777777;
+}
+.cards {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.thumbnail h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+	font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  color: #222222;
+  text-align: center;
+}
+.thumbnail p {
+  font-family: 'Roboto Slab', serif;
+ 	font-size: 14px;
+  letter-spacing: -0.35px;
+  text-align: center;
+  color: #777777;
+}
+.icon {
+	margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid #fed136;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 33px;
+}
+.caption {
+  margin: 0 30px 0 30px;
+}
+.our-portfolio {
+  background: #f7f7f7;
+  padding-bottom: 70px;
+}
+.our-portfolio .titles {
+  margin-bottom: 76px;
+}
+.our-portfolio .portfolio-card {
+  margin: 0 17px 50px 17px;
+  border: none;
+}
+.our-portfolio .portfolio-card > .card-body {
+  background: #ffffff;
+}
+.portfolio-card h5 {
+  margin: 0;
+}
+.card-body p {
+  font-family: 'Droid Serif';
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #737373;
+}
+.card-body h5 {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #333333;
+}
+.about-us img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 84px;
+}
+.about__item {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: calc(50% - 100px);
+}
+.about__text {
+  text-align: right;
+  max-width: 380px;
+  padding: 0 43px;
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  letter-spacing: -0.35px;
+  color: #777777; 
+}
+.about__title {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  color: #222222;
+}
+.about__title span {
+  text-transform: uppercase;
+}
+.about__image {
+  width: 200px;
+}
+.about__image img {
+  border-radius: 50%;
+}
+.about__item:nth-child(2n) {
+  flex-direction: row-reverse;
+  padding-left: calc(50% - 100px);
+  padding-right: 0;
+}
+.about__item:nth-child(2n) .about__text {
+  text-align: left;
+}
+.circle-our-story {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  padding-top: 40px;
+  border: solid 7px #f1f1f1;
+  background-color: #fed136;
+}
+.circle-our-story p {
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.45px;
+  text-align: center;
+  color: #ffffff;
+}
+.our-team {
+  background: #f7f7f7;
+}
+.our-team .titles {
+  padding-bottom: 83px;
+}
+.our-team .photo-our-team {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #000;
+}
+.portfolio-card {
+  margin: 0 27px;
+}
+.our-team .card-title {
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.7;
+  letter-spacing: -0.4px;
+  color: #222222;
+}
+.our-team .card-text {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: -0.35px;
+  font-weight: normal;
+  line-height: normal;
+  color: #777777;
+  font-style: normal;
+  line-height: 1.3;
+}
+article .soc-icons {
+  display: flex;
+  justify-content: center;
+}
+article .soc-icons div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 2rem;
+  height: 2rem;
+  border: 3px solid #222222;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+}
+.portfolio-description {
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  padding-top: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #777777;
+}
+.logos {
+  margin: 60px 0;
+}
+.logos .row div {
+  margin: 0 20px;
+}
+.contact-us {
+  background: url('../img/Map Image.png') no-repeat #222222 right bottom;
+  background-size: 40% 77%;
+}
+.contact-us .titles h2 {
+  color: white;
+}
+.contact-us form {
+  margin-top: 60px;
+}
+.contact-us form input {
+  display: inline; 
+  width: 455px;
+  height: 50px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
+  margin-bottom: 13px;
+}
+.input-unit:first-child p:last-child {
+  margin-bottom: 0;
+}
+.input-unit p:last-child input{
+  margin-bottom: 0;
+} 
+.contact-us form textarea {
+  width: 455px;
+  height: 210px;
+  border: solid 1px #cccccc;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+.contact-us form input::placeholder {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #bbbbbb;
+  padding: 0 5px;
+}
+.contact-us form textarea::placeholder {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.35px;
+  color: #bbbbbb;
+}
+.contact-us form textarea[type=text]{
+  padding-left: 24px;
+  height:24px;
+}
+.contact-us form .row {
+  width:  80%;
+}
+.input-unit {
+  margin: 15px 14px;
+}
+section .soc-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .soc-icons a div {
+  background-color: #222222;
+  margin-left: auto;
+  margin-right: auto;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  padding: 7px 12px;
+  margin: 0 5px 0 5px;
+}
+section .soc-icons a:nth-of-type(2n) div {
+  padding: 7px 10px 7px 14px;
+}
+.block-footer {
+  margin: 18px 0 29px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .contact-us {
+    background-size: 44% 77%;
+  }
+}
+@media screen and (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+    letter-spacing: -2px;
+  }
+  h2, .titles h2 {
+    font-size: 38px;
+    letter-spacing: -1.4px;
+  }
+  header nav {
+    margin: 0 7% 0 9%;
+  }
+  .title {
+    padding-top: 14%;
+  }
+  .nav-link {
+    font-size: 18px;
+  }
+  .contact-us {
+    background-size: 50% 77%;
+  }
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 50px;
+    margin: 15px 0 35px 0;
+  }
+  h2, .titles h2 {
+    font-size: 36px;
+  }
+  .title {
+    padding-top: 16%;
+  }
+  .contact-us {
+    background-size: 54% 77%;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 48px;
+    margin: 20px 0 30px 0;
+  }
+  h2, .titles h2 {
+    font-size: 32px;
+  }
+  header nav {
+    margin: 0 5% 0 6%;
+  }
+  .title {
+    padding-top: 20%;
+  }
+  .contact-us {
+    background-size: 57% 77%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-us form textarea, .contact-us form input {
+    width: 360px;
+  }
+  .contact-us {
+    background-size: 60% 77%;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    display: none;
+  }
+  h2, .titles h2 {
+    margin-bottom: 60px;
+  }
+  .title {
+    padding-top: 38%;
+  }
+  .contact-us form textarea, .contact-us form input {
+    width: 270px;
+  }
+  .contact-us {
+    background-size: 64% 72%;
+  }
+}
