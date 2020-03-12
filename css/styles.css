@@ -406,6 +406,21 @@ section .soc-icons a:nth-of-type(2n) div {
     background-size: 50% 77%;
   }
 }
+@media screen and (min-width: 768px) {
+	.security {
+		padding: 0 130px;
+	}
+}
+@media screen and (min-width: 900px) {
+	.security {
+		padding: 0 160px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.security {
+		padding: 0;
+	}
+}
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 50px;
@@ -438,6 +453,9 @@ section .soc-icons a:nth-of-type(2n) div {
   .contact-us {
     background-size: 57% 77%;
   }
+  .cards {
+  	margin: 0 70px;
+  }
 }
 @media screen and (max-width: 500px) {
   .contact-us form textarea, .contact-us form input {
@@ -447,7 +465,7 @@ section .soc-icons a:nth-of-type(2n) div {
     background-size: 60% 77%;
   }
   .cards {
-  	margin: 0 45px 0 45px;
+  	margin: 0 40px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -465,5 +483,8 @@ section .soc-icons a:nth-of-type(2n) div {
   }
   .contact-us {
     background-size: 64% 72%;
+  }
+  .cards {
+  	margin: 0 25px;
   }
 }
