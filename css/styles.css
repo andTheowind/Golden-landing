@@ -446,6 +446,9 @@ section .soc-icons a:nth-of-type(2n) div {
   .contact-us {
     background-size: 60% 77%;
   }
+  .cards {
+  	margin: 0 45px 0 45px;
+  }
 }
 @media screen and (max-width: 400px) {
   h1 {
